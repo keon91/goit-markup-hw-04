@@ -287,16 +287,24 @@ margin: 0 auto;
      .socials-list {
         
         display: flex;
+        gap:36px;
         justify-content: center;
-        align-items: center;}
+        align-items: center;
+    border-radius: 50%;}
+    .social.link{
+        
+    }
+.socials-list:hover{
 
- .social-item {      
-      border-radius: 50%;
-        background-color: #03a9f4;
+}
+ .social-item:hover { background-color: #03a9f4;     
+      
+        
 
 }
         
 .socials-link{
+   
     fill:var(--color-background-second);
     background-color:var(--color-brand);
     
