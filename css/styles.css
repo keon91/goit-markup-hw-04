@@ -208,32 +208,28 @@ margin: 0 auto;
     gap: 24px;
 }
 .benefits-item{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-brand-second);
-    fill:var(--color-brand);
-      */
+
 
 }
 .benefits-link{
-    
+    background-color: var(--color-background-second);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 100px;
+    border-radius: 4px;
+    border: 1px solid var(--color-border-ben);
+    margin-bottom: 8px;
+ 
 }
 
 .benefits-icon {
-
-    
-    /* background-color:var(--color-background-second);
-    border-radius: 4px;
-    border: 1px solid var(--color-border-ben); */
 }
+
 .benefits-icon:hover {
     
 }
 
-/* .benefits-item:not(:last-child){
-    padding-right: 24px;
-} */
 
 .benefits-title{font-weight: inherit;}
 
@@ -289,36 +285,30 @@ margin: 0 auto;
     flex-basis: calc((100%-72px)/4);
     
 }
-.team{
-    background-color: var(--color-brand-second);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
-}
- .team-box{
-        padding:32px 16px;
-    }
-
-
-     .socials-list {
-        
-        display: flex;
-        gap:36px;
-        justify-content: center;
-        align-items: center;
-    border-radius: 50%;}
-    .social.link{
-        
-    }
 .socials-list:hover{
 
 }
  .social-item:hover { background-color: #03a9f4;     
-      
-        
-
+         
 }
-        
+   
+.team{ background-color: var(--color-brand-second); 
+    border-radius: 0px 0px 4px 4px; 
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); 
+} 
+
+.team-box{ 
+    padding:32px 16px; 
+} 
+
+.socials-list { 
+    display: flex; 
+    gap:36px; 
+    justify-content: center; 
+    align-items: center; border-radius: 50%;
+    } 
+.social.link{ }
 .socials-link{
    
     fill:var(--color-background-second);
