@@ -283,14 +283,13 @@ margin: 0 auto;
 }
 .team-item{
     flex-basis: calc((100%-72px)/4);
-    
 }
 
 .socials-list:hover{
 
 }
- .social-item:hover { background-color: #03a9f4;     
-         
+
+.social-item:hover { background-color: #03a9f4;             
 }
    
 .team{ background-color: var(--color-brand-second); 
