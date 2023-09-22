@@ -289,8 +289,7 @@ margin: 0 auto;
 
 }
 
-.social-item:hover { background-color: #03a9f4;             
-}
+
    
 .team{ background-color: var(--color-brand-second); 
     border-radius: 0px 0px 4px 4px; 
@@ -305,15 +304,26 @@ margin: 0 auto;
     display: flex; 
     gap:36px; 
     justify-content: center; 
-    align-items: center; border-radius: 50%;
+   
     } 
-.social.link{ }
+.social-item {
+     background-color: red;     
+     border-radius: 50%;
+      align-items: center; 
+      align-self: center;
+
+}
 .socials-link{
    
     fill:var(--color-background-second);
-    background-color:var(--color-brand);
+    
+    
     
 } 
+.social-item:hover { background-color: #03a9f4;             
+}
+
+
 
     .team-text {
     color: var(--color-text);
