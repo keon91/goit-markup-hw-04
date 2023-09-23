@@ -304,20 +304,28 @@ margin: 0 auto;
     display: flex; 
     gap:36px; 
     justify-content: center; 
+     
    
     } 
 .social-item {
-     background-color: red;     
-     border-radius: 50%;
-      align-items: center; 
-      align-self: center;
+    display: flex;
+    align-items: center; 
+    align-self: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-brand);     
+    border-radius: 50%;
+
+ 
+     
 
 }
 .socials-link{
+
+    fill:var(--color-border);
    
-    fill:var(--color-background-second);
-    
-    
+ 
     
 } 
 .social-item:hover { background-color: #03a9f4;             
