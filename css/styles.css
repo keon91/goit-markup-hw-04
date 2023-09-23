@@ -300,10 +300,24 @@ margin: 0 auto;
     padding:32px 16px; 
 } 
 
+
+
+.team-text {
+color: var(--color-text);
+text-align: center;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+
+}
+
 .socials-list { 
     display: flex; 
     gap:36px; 
     justify-content: center; 
+    margin-left: 16px;
+    margin-right: 16px;
      
    
     } 
@@ -316,7 +330,8 @@ margin: 0 auto;
     height: 40px;
     background-color: var(--color-brand);     
     border-radius: 50%;
-
+  
+  
  
      
 
@@ -331,15 +346,6 @@ margin: 0 auto;
 .social-item:hover { background-color: #03a9f4;             
 }
 
-
-
-    .team-text {
-    color: var(--color-text);
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-}
 /*TEAM SECTION 3 END*/
 
 /*PORTFOLIO START 4*/
@@ -402,10 +408,15 @@ margin: 0 auto;
 /*FOOTER*/
 
 .footer{
+    
     background-color:var(--color-modal) ;
     padding:100px 0;
 }
+/* .inner-footer{display:inline-block}; */
 
+.inner-footer{
+    display: inline-block;
+}
 .footer-text{
     color: var(--color-background-second);
     font-weight: 400;
@@ -419,4 +430,44 @@ margin: 0 auto;
 
 .logo-footer{
     margin-bottom: 17.5px;
+}
+.footer-title{
+    color:var(--color-brand-second);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+
+.footer-team-socials {
+    display:inline-block;
+    
+
+}
+.footer-socials-list {
+    display: flex; 
+    gap:36px; 
+    justify-content: center; 
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.footer-social-item {
+    display: flex;
+    align-items: center; 
+    align-self: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-brand);     
+    border-radius: 50%;
+  
+}
+.footer-socials-link{
+    fill:var(--color-border);
+
+}
+
+.footer-social-item:hover { background-color: #31D0AA;             
 }
