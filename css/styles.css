@@ -446,13 +446,15 @@ margin-bottom: 8px;
 
 .inner-footer{
     display: flex;
- 
+    flex-direction: row;
     align-items: center; 
-    align-self: center;
-
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 .footer-box{
+      display: flex;
+      flex-direction: column;
     margin-right: 120px;
 }
 .footer-text{
@@ -467,7 +469,7 @@ margin-bottom: 8px;
 }
 
 .logo-footer{
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 .footer-title{
     color:var(--color-brand-second);
@@ -477,25 +479,26 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer-team-socials {
-    display: flex; 
+    /* display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items:flex-start; 
     align-self: center;
- 
+  */
 }
 .footer-socials-list {
-    display: flex;  
+      display: flex;
     gap: 16px;
  
 }
 .footer-social-item {
    display: flex;/*не трогать*/
     align-items: center; /*не трогать*/
-    align-self: center;/*не трогать*/
+    /* align-self: center;не трогать */
     justify-content: center; /*не трогать*/
     width: 40px;
     height: 40px;
