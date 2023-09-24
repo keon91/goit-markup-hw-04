@@ -448,7 +448,7 @@ margin-bottom: 8px;
 /* .inner-footer{display:inline-block}; */
 
 .inner-footer{
-    display: inline-block;
+
 }
 .footer-text{
     color: var(--color-background-second);
@@ -475,9 +475,7 @@ margin-bottom: 8px;
 }
 
 .footer-team-socials {
-    display:flex;
-    align-items: center;
-    margin-left: auto;
+  
   
     
     
