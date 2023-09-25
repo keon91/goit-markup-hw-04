@@ -48,6 +48,7 @@ margin: 0 auto;
 .section {
     padding: 120px 0;
     max-width: 1440px;
+    background-size: cover;
 }
 
 .visually-hidden {
