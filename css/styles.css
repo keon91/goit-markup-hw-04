@@ -47,6 +47,7 @@ margin: 0 auto;
 } 
 .section {
     padding: 120px 0;
+    max-width: 1440px;
 }
 
 .visually-hidden {
