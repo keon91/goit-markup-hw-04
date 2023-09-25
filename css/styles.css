@@ -101,6 +101,7 @@ margin: 0 auto;
 }
 .nav-link{
     display: inline-block;
+    position: relative;
     color:var(--color-title);
     line-height: 1.5; 
     letter-spacing: 0.02em;
@@ -111,6 +112,21 @@ margin: 0 auto;
 }
 .nav-link:hover, .nav-link:focus{
     color:var(--color-pressed);
+}
+.current {
+    color:var(--color-pressed);
+}
+.nav-link.current::after{
+    color:var(--color-pressed);
+    content: "";
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color:var(--color-pressed);
+
 }
 .header-contacts{
     display: flex;
