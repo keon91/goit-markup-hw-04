@@ -149,6 +149,10 @@ margin: 0 auto;
 .contacts-link{
     display: inline-block;
     padding: 24px 0; 
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contacts-item a{
@@ -160,9 +164,6 @@ margin: 0 auto;
   
 }
 .contacts-item {
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .contacts-item a:hover, .contacts-item a:focus{
