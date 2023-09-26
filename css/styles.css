@@ -487,6 +487,7 @@ margin-bottom: 8px;
     align-items: center; 
     justify-content: flex-start;
     align-items: flex-start;
+    align-items: baseline;
 
 }
 .footer-box{
@@ -524,7 +525,7 @@ margin-bottom: 8px;
 }
 .footer-socials-list {
     display: flex;
-    align-items: baseline;
+
     gap: 16px;
 }
 .footer-social-item {
