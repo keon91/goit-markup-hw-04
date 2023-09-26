@@ -151,7 +151,7 @@ margin: 0 auto;
     padding: 24px 0; 
 }
 
-.contacts-item a{
+.contacts-link{
     color: var(--color-text);
     font-style: normal;
     font-weight: 400;
