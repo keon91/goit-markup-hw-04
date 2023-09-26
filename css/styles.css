@@ -231,6 +231,7 @@ margin: 0 auto;
 
 .benefits-section{
     padding: 120px 0;
+    height: 112px;
 }
 
 .benefits-inner{
@@ -251,7 +252,6 @@ margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 112px;
     padding: 24px 100px;
     border-radius: 4px;
     border: 1px solid var(--color-border-ben);
