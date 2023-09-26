@@ -149,16 +149,22 @@ margin: 0 auto;
 .contacts-link{
     display: inline-block;
     padding: 24px 0; 
+}
+
+.contacts-item a{
     color: var(--color-text);
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+  
+}
+.contacts-item {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
+}
 .contacts-item a:hover, .contacts-item a:focus{
     color:var(--color-pressed);
 }
