@@ -513,7 +513,6 @@ margin-bottom: 8px;
 .footer-socials-list {
     display: flex;
     gap: 16px;
- 
 }
 .footer-social-item {
     display: flex;
@@ -527,9 +526,6 @@ margin-bottom: 8px;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-    
-  
 
 .footer-socials-link{
     fill:var(--color-border);
