@@ -47,8 +47,7 @@ margin: 0 auto;
 } 
 .section {
     padding: 120px 0;
-    max-width: 1440px;
-    background-size: cover;
+
 }
 
 .visually-hidden {
@@ -66,14 +65,11 @@ margin: 0 auto;
 }
 /*HEADER*/
 .header{
-     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-inner {
     display: flex;
-    align-items: center;
-
-  
+    align-items: center; 
 }
 
 .header-nav{
@@ -170,17 +166,15 @@ margin: 0 auto;
 /* HERO SECTION START 1*/
 
 .hero-section {
- 
     text-align: center;
     padding:188px 0 ;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-size:1440px;
+    max-width:1440px;
+    margin: 0 auto;
     background-color:var(--color-title);
- 
- 
 } 
 
 .hero-container{
@@ -346,32 +340,25 @@ margin-bottom: 8px;
     display: flex; 
     max-width: 264px;
     gap:24px; 
-    justify-content: center; 
- 
-   
-     
-   
+    justify-content: center;   
     } 
 .social-item {
+    background-color: var(--color-brand);     
+    border-radius: 50%;
+}
+
+.socials-link{
     display: flex;
     align-items: center; 
     align-self: center;
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: var(--color-brand);     
-    border-radius: 50%;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.socials-link{
-
     fill:var(--color-border);  
     transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+    cursor: pointer;
 } 
 .social-item:hover { background-color: #03a9f4;             
 }
@@ -379,6 +366,10 @@ margin-bottom: 8px;
 /*TEAM SECTION 3 END*/
 
 /*PORTFOLIO START 4*/
+.portfolio{
+    overflow: hidden;
+    position: relative;
+}
 .portfolio-title {
     color: var(--color-modal);
     text-align: center;
