@@ -228,10 +228,14 @@ margin: 0 auto;
 }
 /* HERO SECTION END 1*/
 /* BENEFITS SECTION START 2*/
+
 .benefits-section{
     padding: 120px 0;
 }
 
+.benefits-inner{
+    height: 112px;
+}
 .benefits-list{
     display: flex;
     flex-direction: row;
