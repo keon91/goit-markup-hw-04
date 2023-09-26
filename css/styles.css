@@ -524,6 +524,7 @@ margin-bottom: 8px;
 }
 .footer-socials-list {
     display: flex;
+    align-items: baseline;
     gap: 16px;
 }
 .footer-social-item {
