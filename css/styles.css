@@ -455,8 +455,8 @@ margin-bottom: 8px;
 }
 
 .portfolio-item:hover .overlay-text{
-     transform: translateY(0%);
-    /* transform:translateY(0%); */
+    transform: translateY(0%);
+    /* transform:translateY(0); */
 }
 
 
