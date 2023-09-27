@@ -540,13 +540,13 @@ margin-bottom: 8px;
     gap: 16px;
 }
 .footer-social-item {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;  */
     width: 40px;
     height: 40px;
-    background-color: var(--color-brand);     
-    border-radius: 50%;
+    /* background-color: var(--color-brand);      */
+    /* border-radius: 50%; */
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -556,7 +556,11 @@ margin-bottom: 8px;
     fill:var(--color-border);
     width: 100%;
     height:100%;
-
+    background-color: var(--color-brand); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .footer-social-item:hover { background-color: #31D0AA;             
