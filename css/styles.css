@@ -496,11 +496,8 @@ margin-bottom: 8px;
 .inner-footer{
     display: flex;
     flex-direction: row;
-    align-items: center; 
     justify-content: flex-start;
-    align-items: flex-start;
-     align-items: baseline;
-  
+    align-items: baseline;
 
 }
 .footer-box{
