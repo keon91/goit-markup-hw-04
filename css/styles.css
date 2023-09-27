@@ -499,6 +499,7 @@ margin-bottom: 8px;
     align-items: center; 
     justify-content: flex-start;
     align-items: flex-start;
+     align-items: baseline;
   
 
 }
@@ -506,7 +507,7 @@ margin-bottom: 8px;
     display: flex;
     flex-direction: column;
     margin-right: 120px;
-    align-items: baseline;
+   
 }
 .footer-text{
     color: var(--color-background-second);
