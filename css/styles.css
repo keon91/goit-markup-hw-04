@@ -10,6 +10,7 @@
   --color-modal-bgc:#FCFCFC;
   --color-border:#E7E9FC;
   --color-border-ben:#8E8F99;
+  --color-footer-h:#31D0AA;
   
 }
 /*____________BODY___________________*/
@@ -563,7 +564,9 @@ margin-bottom: 8px;
     justify-content: center; 
 }
 
-.footer-social-link:hover { background-color: #31D0AA;             
+.footer-social-link:hover{ 
+    background-color:var(--color-footer-h);           
 }
-.footer-social-link:focus { background-color: #31D0AA;             
+.footer-social-link:focus{ 
+    background-color: #31D0AA;             
 }
