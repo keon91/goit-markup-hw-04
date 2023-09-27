@@ -367,7 +367,10 @@ margin-bottom: 8px;
 
 }
 
-
+.team-icon{
+    fill:var(--color-border);   
+    
+}
 .socials-link{
     display: flex;
     align-items: center; 
@@ -382,10 +385,7 @@ margin-bottom: 8px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
     cursor: pointer;
 } 
-.team-icon{
-    fill:var(--color-border);   
-    
-}
+
 .socials-link:hover{
     background-color:var(--color-pressed);
 }
