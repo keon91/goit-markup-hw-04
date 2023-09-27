@@ -154,9 +154,9 @@ margin: 0 auto;
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 
 }
 .contacts-link:hover
