@@ -364,6 +364,7 @@ margin-bottom: 8px;
 .social-item {
     /* background-color: var(--color-brand);     
     border-radius: 50%; */
+
 }
 
 
@@ -375,15 +376,23 @@ margin-bottom: 8px;
     width: 40px;
     height: 40px;
     background-color:var(--color-brand);
-     border-radius: 50%;
-    fill:var(--color-border);  
+    border-radius: 50%;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
     cursor: pointer;
 } 
-.social-item:hover { background-color:var(--color-pressed);             
+.team-icon{
+    fill:var(--color-border);   
+    
 }
+.socials-link:hover{
+    background-color:var(--color-pressed);
+}
+.socials-link:focus{ 
+    background-color:var(--color-pressed); }
+
+
 
 /*TEAM SECTION 3 END*/
 
