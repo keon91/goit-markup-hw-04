@@ -159,6 +159,12 @@ margin: 0 auto;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.contacts-link:hover
+{color:var(--color-pressed);
+}
+.contacts-link:focus
+{color:var(--color-pressed);
+}
 
 .contacts-item a{
    
@@ -167,9 +173,9 @@ margin: 0 auto;
 .contacts-item {
 
 }
-.contacts-item a:hover, .contacts-item a:focus{
+/* .contacts-item a:hover, .contacts-item a:focus{
     color:var(--color-pressed);
-}
+} */
 
 
 
