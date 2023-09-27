@@ -455,7 +455,7 @@ margin-bottom: 8px;
 }
 
 .portfolio-item:hover .overlay-text{
-    transform:translateY(0);
+    transform:translateY(0%);
 }
 
 
@@ -479,9 +479,7 @@ margin-bottom: 8px;
 
    
 }
-.portfolio-text:hover{
-    transform:translateY(0);
-}
+
 
 
 
