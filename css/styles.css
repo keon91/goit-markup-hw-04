@@ -438,7 +438,7 @@ margin-bottom: 8px;
 }
 .overlay-text {
     position:absolute;
-    padding: 40px 32px 164px;
+    padding: 40px 32px;  /* 164px */
     background-color: var(--color-brand);
     color: var(--color-background-second);
     font-family: inherit;
