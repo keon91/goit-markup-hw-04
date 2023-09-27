@@ -564,9 +564,10 @@ margin-bottom: 8px;
     justify-content: center; 
 }
 
-.footer-social-link:hover{ 
-    background-color:var(--color-footer-h);           
+.footer-socials-link :hover{ 
+    background-color:var(--color-footer-h); 
+   
 }
-.footer-social-link:focus{ 
+..footer-socials-link :focus{ 
     background-color: #31D0AA;             
 }
