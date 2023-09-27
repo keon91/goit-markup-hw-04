@@ -339,7 +339,8 @@ margin: 0 auto;
 } 
 
 .team-box{ 
-    padding:32px 16px; 
+     padding: 32px 0;
+    /* padding:32px 16px;  */
 } 
 
 
