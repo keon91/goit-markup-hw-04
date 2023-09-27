@@ -563,5 +563,7 @@ margin-bottom: 8px;
     justify-content: center; 
 }
 
-.footer-social-item:hover { background-color: #31D0AA;             
+.footer-social-link:hover { background-color: #31D0AA;             
+}
+.footer-social-link:focus { background-color: #31D0AA;             
 }
