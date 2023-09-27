@@ -571,3 +571,6 @@ margin-bottom: 8px;
 ..footer-socials-link :focus{ 
     background-color: #31D0AA;             
 }
+
+.footer-social-link{background-color:var(--color-footer-h);} 
+   
